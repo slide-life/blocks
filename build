@@ -1,0 +1,9 @@
+#/bin/bash
+
+cat blocks/banking.json \
+    blocks/contact-details.json \
+    blocks/education.json \
+    blocks/healthcare.json \
+    blocks/identification.json \
+    blocks/personal.json \
+    > blocks.json
