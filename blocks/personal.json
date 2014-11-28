@@ -1,0 +1,75 @@
+{
+  "name" : "profile-picture",
+  "description" : "Profile picture",
+  "type" : "image"
+}
+
+{
+  "name" : "first-name",
+  "description" : "First name",
+  "type" : "text"
+}
+
+{
+  "name" : "last-name",
+  "description" : "Last name",
+  "type" : "text"
+}
+
+{
+  "name" : "middle-name",
+  "description" : "Middle name",
+  "type" : "text"
+}
+
+{
+  "name" : "date-of-birth",
+  "description" : "Date of birth",
+  "type" : "date",
+  "format" : "dd-mm-yy"
+}
+
+{
+  "name" : "country-of-citizenship",
+  "description" : "Country of citizenship",
+  "type" : "country"
+}
+
+{
+  "name" : "sex",
+  "description" : "Sex",
+  "type" : "select",
+  "options" : ["Male", "Female", "Other"]
+}
+
+{
+  "name" : "street-address",
+  "description" : "Street address",
+  "type" : "text"
+}
+
+{
+  "name" : "city",
+  "description" : "City",
+  "type" : "text"
+}
+
+/* TODO: change to select */
+{
+  "name" : "state",
+  "description" : "State",
+  "type" : "text"
+}
+
+{
+  "name" : "zip-code",
+  "description" : "Zip code",
+  "type" : "number"
+}
+
+/* TODO: change to select */
+{
+  "name" : "country",
+  "description" : "Country",
+  "type" : "text"
+}

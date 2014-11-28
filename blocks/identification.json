@@ -1,0 +1,29 @@
+{
+  "name" : "signature",
+  "description" : "Signature",
+  "type" : "image"
+}
+
+{
+  "name" : "ssn",
+  "description" : "SSN",
+  "type" : "number"
+}
+
+{
+  "name" : "passport-number",
+  "description" : "Passport number",
+  "type" : "number"
+}
+
+{
+  "name" : "id-card-number",
+  "description" : "ID card number",
+  "type" : "number"
+}
+
+{
+  "name" : "drivers-license-number",
+  "description" : "Drivers license number",
+  "type" : "number"
+}

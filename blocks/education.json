@@ -1,0 +1,37 @@
+{
+  "name" : "university",
+  "description" : "University name",
+  "type" : "text"
+}
+
+{
+  "name" : "university-id",
+  "description" : "University ID",
+  "type" : "text"
+}
+
+{
+  "name" : "university-year",
+  "description" : "University year",
+  "type" : "select",
+  "options" : ["Freshman", "Sophomore", "Junior", "Senior", "Postgraduate"]
+}
+
+{
+  "name" : "university-graduation-year",
+  "description" : "Graduation year",
+  "type" : "date",
+  "format" : "yy"
+}
+
+{
+  "name" : "university-major",
+  "description" : "Major",
+  "type" : "text"
+}
+
+{
+  "name" : "university-residence",
+  "description" : "Dormitory/House",
+  "type" : "text"
+}

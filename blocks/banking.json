@@ -1,0 +1,36 @@
+{
+  "name" : "card-number",
+  "description" : "Card number",
+  "type" : "number"
+}
+
+{
+  "name" : "card-expiry-date",
+  "description" : "Expiry date",
+  "type" : "date",
+  "format" : "mm-yy"
+}
+
+{
+  "name" : "card-security-number",
+  "description" : "Security number",
+  "type" : "number"
+}
+
+{
+  "name" : "bank",
+  "description" : "Bank",
+  "type" : "text"
+}
+
+{
+  "name" : "branch",
+  "description" : "Branch",
+  "type" : "text"
+}
+
+{
+  "name" : "swift-code",
+  "description" : "Swift code",
+  "type" : "text"
+}

@@ -1,0 +1,23 @@
+{
+  "name" : "email",
+  "description" : "Email",
+  "type" : "text"
+}
+
+{
+  "name" : "mobile-number",
+  "description" : "Mobile number",
+  "type" : "tel"
+}
+
+{
+  "name" : "home-number",
+  "description" : "Home number",
+  "type" : "tel"
+}
+
+{
+  "name" : "skype-username",
+  "description" : "Skype username",
+  "type" : "text"
+}
