@@ -6,4 +6,4 @@ cat blocks/banking.json \
     blocks/healthcare.json \
     blocks/identification.json \
     blocks/personal.json \
-    > blocks.json
+    | sed 's/}/},/g' > blocks.json
