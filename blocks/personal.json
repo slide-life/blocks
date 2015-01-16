@@ -40,8 +40,15 @@
   },
 
   "address": {
-    "street-address": {
-      "_description": "Street address",
+    "_representation": "${@residence} ${@street}, ${@city}, ${@state} ${@zip-code}, ${@country}",
+
+    "residence": {
+      "_description": "Residence name/number",
+      "_type": "text"
+    },
+
+    "street": {
+      "_description": "Street",
       "_type": "text"
     },
 
