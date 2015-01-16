@@ -1,29 +1,27 @@
 {
-  "name" : "signature",
-  "description" : "Signature",
-  "type" : "image"
-}
+  "signature": {
+    "_description": "Signature",
+    "_type": "image"
+  },
 
-{
-  "name" : "ssn",
-  "description" : "SSN",
-  "type" : "number"
-}
+  "ssn": {
+    "_description": "Social Security Number",
+    "_type": "number"
+  },
 
-{
-  "name" : "passport-number",
-  "description" : "Passport number",
-  "type" : "number"
-}
+  "passport": {
+    "_inherits": "base.id-card",
 
-{
-  "name" : "id-card-number",
-  "description" : "ID card number",
-  "type" : "number"
-}
+    "country-of-issue": {
+      "_inherits": "base.country"
+    }
+  },
 
-{
-  "name" : "drivers-license-number",
-  "description" : "Drivers license number",
-  "type" : "number"
+  "id-card": {
+    "_inherits": "base.id-card"
+  },
+
+  "drivers-license": {
+    "_inherits": "base.id-card"
+  }
 }

@@ -1,23 +1,16 @@
 {
-  "name" : "email",
-  "description" : "Email",
-  "type" : "text"
-}
+  "email": {
+    "_description": "Email",
+    "_type": "text"
+  },
 
-{
-  "name" : "mobile-number",
-  "description" : "Mobile number",
-  "type" : "tel"
-}
+  "mobile-phone": {
+    "_description": "Mobile phone",
+    "_inherits": "base.phone"
+  },
 
-{
-  "name" : "home-number",
-  "description" : "Home number",
-  "type" : "tel"
-}
-
-{
-  "name" : "skype-username",
-  "description" : "Skype username",
-  "type" : "text"
+  "home-phone": {
+    "_description": "Home phone",
+    "_inherits": "base.phone"
+  }
 }

@@ -1,36 +1,50 @@
 {
-  "name" : "card-number",
-  "description" : "Card number",
-  "type" : "number"
-}
+  "bank": {
+    "name": {
+      "_description": "Bank name",
+      "_type": "text"
+    },
 
-{
-  "name" : "card-expiry-date",
-  "description" : "Expiry date",
-  "type" : "date",
-  "format" : "mm-yy"
-}
+    "branch": {
+      "_description": "Bank branch",
+      "_type": "text"
+    },
 
-{
-  "name" : "card-security-number",
-  "description" : "Security number",
-  "type" : "number"
-}
+    "account": {
+      "number": {
+        "_description": "Account number",
+        "_type": "number"
+      },
 
-{
-  "name" : "bank",
-  "description" : "Bank",
-  "type" : "text"
-}
+      "routing": {
+        "_description": "Routing number",
+        "_type": "number"
+      },
 
-{
-  "name" : "branch",
-  "description" : "Branch",
-  "type" : "text"
-}
+      "IBAN": {
+        "_description": "IBAN",
+        "_type": "text"
+      },
 
-{
-  "name" : "swift-code",
-  "description" : "Swift code",
-  "type" : "text"
+      "swift-code": {
+        "_description": "Swift code",
+        "_type": "text"
+      }
+    },
+
+    "card": {
+      "_description": "Bank card",
+      "_components": "base.start-date, base.expiry-date",
+      
+      "number": {
+        "_description": "Card number",
+        "_type": "number"
+      },
+
+      "security-code": {
+        "_description": "Security code",
+        "_type": "number"
+      }
+    }
+  }
 }

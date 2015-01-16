@@ -1,75 +1,68 @@
 {
-  "name" : "profile-picture",
-  "description" : "Profile picture",
-  "type" : "image"
-}
+  "name": {
+    "_representation": "${@first} ${@last}",
 
-{
-  "name" : "first-name",
-  "description" : "First name",
-  "type" : "text"
-}
+    "first": {
+      "_description": "First name",
+      "_type": "text"
+    },
 
-{
-  "name" : "last-name",
-  "description" : "Last name",
-  "type" : "text"
-}
+    "middle": {
+      "_description": "Middle name",
+      "_type": "text"
+    },
 
-{
-  "name" : "middle-name",
-  "description" : "Middle name",
-  "type" : "text"
-}
+    "last": {
+      "_description": "Last name",
+      "_type": "text"
+    }
+  },
 
-{
-  "name" : "date-of-birth",
-  "description" : "Date of birth",
-  "type" : "date",
-  "format" : "dd-mm-yy"
-}
+  "profile-picture": {
+    "_description": "Profile picture",
+    "_type": "image"
+  },
 
-{
-  "name" : "country-of-citizenship",
-  "description" : "Country of citizenship",
-  "type" : "country"
-}
+  "date-of-birth": {
+    "_inherits": "base.date",
+    "_description": "Date of birth"
+  },
 
-{
-  "name" : "sex",
-  "description" : "Sex",
-  "type" : "select",
-  "options" : ["Male", "Female", "Other"]
-}
+  "country-of-citizenship": {
+    "_description": "Country of citizenship",
+    "_inherits": "base.country"
+  },
 
-{
-  "name" : "street-address",
-  "description" : "Street address",
-  "type" : "text"
-}
+  "sex": {
+    "_description": "Sex",
+    "_type": "select",
+    "_options": ["Male", "Female", "Other"]
+  },
 
-{
-  "name" : "city",
-  "description" : "City",
-  "type" : "text"
-}
+  "address": {
+    "street-address": {
+      "_description": "Street address",
+      "_type": "text"
+    },
 
-/* TODO: change to select */
-{
-  "name" : "state",
-  "description" : "State",
-  "type" : "text"
-}
+    "city": {
+      "_description": "City",
+      "_type": "text"
+    },
 
-{
-  "name" : "zip-code",
-  "description" : "Zip code",
-  "type" : "number"
-}
+    "state": {
+      "_description": "State",
+      "_inherits": "base.state"
+    },
 
-/* TODO: change to select */
-{
-  "name" : "country",
-  "description" : "Country",
-  "type" : "text"
+    "zip-code": {
+      "_description": "Zip code",
+      "_type": "number"
+    },
+
+    "country": {
+      "_description": "Country",
+      "_inherits": "base.country"
+    }
+  }
 }

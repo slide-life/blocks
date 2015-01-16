@@ -1,9 +1,8 @@
-#/bin/bash
+#!/usr/bin/env ruby
 
-cat blocks/banking.json \
-    blocks/contact-details.json \
-    blocks/education.json \
-    blocks/healthcare.json \
-    blocks/identification.json \
-    blocks/personal.json \
-    | sed 's/}/},/g' > blocks.json
+require 'json'
+
+cwd = File.dirname(__FILE__)
+blocks = Dir["#{cwd}/blocks/*.json"].map { |f| JSON.parse File.read(f) }.reduce({}, :merge)
+blocks['_organisation'] = 'slide.life'
+File.write("#{cwd}/blocks.json", blocks.to_json)

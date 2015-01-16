@@ -1,5 +1,6 @@
 {
-  "name" : "allergies",
-  "description" : "Allergies",
-  "type": "list"
+  "allergies": {
+    "_description": "Allergies",
+    "_type": "list"
+  }
 }

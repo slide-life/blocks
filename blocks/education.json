@@ -1,37 +1,35 @@
 {
-  "name" : "university",
-  "description" : "University name",
-  "type" : "text"
-}
+  "university": {
+    "name": {
+      "_description": "University name",
+      "_type": "text"
+    },
 
-{
-  "name" : "university-id",
-  "description" : "University ID",
-  "type" : "text"
-}
+    "id": {
+      "_description": "University ID number",
+      "_type": "text"
+    },
 
-{
-  "name" : "university-year",
-  "description" : "University year",
-  "type" : "select",
-  "options" : ["Freshman", "Sophomore", "Junior", "Senior", "Postgraduate"]
-}
+    "current-level": {
+      "_description": "University year",
+      "_type": "select",
+      "_options": ["Freshman", "Sophomore", "Junior", "Senior", "Postgraduate"]
+    },
 
-{
-  "name" : "university-graduation-year",
-  "description" : "Graduation year",
-  "type" : "date",
-  "format" : "yy"
-}
+    "graduation-year": {
+      "_description": "Graduation year",
+      "_type": "date",
+      "format": "yy"
+    },
 
-{
-  "name" : "university-major",
-  "description" : "Major",
-  "type" : "text"
-}
+    "major": {
+      "_description": "Major",
+      "_type": "text"
+    },
 
-{
-  "name" : "university-residence",
-  "description" : "Dormitory/House",
-  "type" : "text"
+    "residence": {
+      "_description": "Dormitory/House",
+      "_type": "text"
+    }
+  }
 }
