@@ -7,7 +7,7 @@ sample of the following reserved keywords.
 
 - `_description` - A description of the type.
 - `_inherits` - Another type from which the type inherits.
-- `_type` - A primitive type which the type encapsulates.
+- `_type` - A primitive type which the type encapsulates. One of `text`, `number`, `image`, `tel`, `date`, `select`, `list`.
 - `_options` - The options from which a type can select should it be of type `select`.
 - `_representation` - A pattern used to serialize a compound type.
 - `_components` - Existing types which should be added as components of a type
