@@ -3,6 +3,6 @@
 require 'json'
 
 cwd = File.dirname(__FILE__)
-blocks = Dir["#{cwd}/blocks/*.json"].map { |f| JSON.parse File.read(f) }.reduce({}, :merge)
-blocks['_organization'] = 'slide.life'
-File.write("#{cwd}/blocks.json", blocks.to_json)
+schema = Dir["#{cwd}/blocks/*.json"].map { |f| JSON.parse File.read(f) }.reduce({}, :merge)
+block = { :organization => 'slide.life', :schema => schema }
+File.write("#{cwd}/blocks.json", block.to_json)
