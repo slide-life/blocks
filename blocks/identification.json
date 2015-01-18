@@ -6,7 +6,8 @@
 
   "ssn": {
     "_description": "Social Security Number",
-    "_type": "number"
+    "_type": "number",
+    "_validation": "^\\d{9}$"
   },
 
   "passport": {

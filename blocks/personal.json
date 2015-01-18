@@ -64,7 +64,8 @@
 
     "zip-code": {
       "_description": "Zip code",
-      "_type": "number"
+      "_type": "number",
+      "_validation": "^\\d{5}$"
     },
 
     "country": {

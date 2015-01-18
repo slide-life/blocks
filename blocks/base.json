@@ -6,32 +6,37 @@
       "day": {
         "_description": "Day",
         "_type": "date",
-        "_format": "dd"
+        "_format": "dd",
+        "_validation": "^\\d{2}$"
       },
 
       "month": {
         "_description": "Month",
         "_type": "date",
-        "_format": "mm"
+        "_format": "mm",
+        "_validation": "^\\d{2}$"
       },
 
       "year": {
         "_description": "Year",
         "_type": "date",
-        "_format": "yy"
+        "_format": "yy",
+        "_validation": "^\\d{2}$"
       }
     },
 
     "start-date": {
       "_description": "Date of issue",
       "_type": "date",
-      "_format": "mm-yy"
+      "_format": "mm-yy",
+      "_validation": "^\\d{2}-\\d{2}$"
     },
 
     "expiry-date": {
       "_description": "Date of expiration",
       "_type": "date",
-      "_format": "mm-yy"
+      "_format": "mm-yy",
+      "_validation": "^\\d{2}-\\d{2}$"
     },
 
     "id-card": {
@@ -88,7 +93,7 @@
 
     "phone": {
       "_representation": "${@extension}${@number}",
-      
+
       "number": {
         "_description": "Phone number",
         "_type": "number"
@@ -97,7 +102,7 @@
       "extension": {
         "_description": "Phone extension",
         "_type": "number"
-      }  
+      }
     }
   }
 }

@@ -18,8 +18,7 @@
 
     "graduation-year": {
       "_description": "Graduation year",
-      "_type": "date",
-      "_format": "yy"
+      "_inherits": "base.date.year"
     },
 
     "major": {
