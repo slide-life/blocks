@@ -1,5 +1,6 @@
 {
   "name": {
+    "_description": "Name",
     "_representation": "${@first} ${@last}",
 
     "first": {
@@ -24,8 +25,9 @@
   },
 
   "date-of-birth": {
-    "_inherits": "base.date",
-    "_description": "Date of birth"
+    "_description": "Date of birth",
+    "_type": "date",
+    "_format": "dd-mm-yy"
   },
 
   "country-of-citizenship": {

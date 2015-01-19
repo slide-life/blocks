@@ -1,27 +1,5 @@
 {
   "base": {
-    "date": {
-      "_representation": "${@day}-${@month}-${@year}",
-
-      "day": {
-        "_description": "Day",
-        "_type": "date",
-        "_format": "dd"
-      },
-
-      "month": {
-        "_description": "Month",
-        "_type": "date",
-        "_format": "mm"
-      },
-
-      "year": {
-        "_description": "Year",
-        "_type": "date",
-        "_format": "yy"
-      }
-    },
-
     "start-date": {
       "_description": "Date of issue",
       "_type": "date",
@@ -88,7 +66,7 @@
 
     "phone": {
       "_representation": "${@extension}${@number}",
-      
+
       "number": {
         "_description": "Phone number",
         "_type": "number"
@@ -97,7 +75,7 @@
       "extension": {
         "_description": "Phone extension",
         "_type": "number"
-      }  
+      }
     }
   }
 }
