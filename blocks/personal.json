@@ -1,7 +1,7 @@
 {
   "name": {
     "_description": "Name",
-    "_representation": "${@first} ${@last}",
+    "_representation": "${first} ${last}",
 
     "first": {
       "_description": "First name",
@@ -42,7 +42,7 @@
   },
 
   "address": {
-    "_representation": "${@residence} ${@street}, ${@city}, ${@state} ${@zip-code}, ${@country}",
+    "_representation": "${residence} ${street}, ${city}, ${state} ${zip-code}, ${country}",
 
     "residence": {
       "_description": "Residence name/number",

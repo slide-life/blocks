@@ -65,7 +65,7 @@
     },
 
     "phone": {
-      "_representation": "${@extension}${@number}",
+      "_representation": "${extension}${number}",
 
       "number": {
         "_description": "Phone number",

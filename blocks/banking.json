@@ -35,7 +35,7 @@
     "card": {
       "_description": "Bank card",
       "_components": ["base.start-date", "base.expiry-date"],
-      "_representation": "${@number}",
+      "_representation": "${number}",
 
       "number": {
         "_description": "Card number",
