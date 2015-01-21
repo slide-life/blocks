@@ -14,6 +14,7 @@
     "_inherits": "base.id-card",
 
     "country-of-issue": {
+      "_description": "Country of issue",
       "_inherits": "base.country"
     }
   },
