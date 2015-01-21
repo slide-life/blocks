@@ -42,6 +42,7 @@
   },
 
   "address": {
+    "_description": "Address",
     "_representation": "${residence} ${street}, ${city}, ${state} ${zip-code}, ${country}",
 
     "residence": {

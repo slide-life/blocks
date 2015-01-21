@@ -10,6 +10,7 @@
   },
 
   "passport": {
+    "_description": "Passport",
     "_inherits": "base.id-card",
 
     "country-of-issue": {
@@ -18,10 +19,12 @@
   },
 
   "id-card": {
+    "_description": "ID card",
     "_inherits": "base.id-card"
   },
 
   "drivers-license": {
+    "_description": "Drivers license",
     "_inherits": "base.id-card"
   }
 }
