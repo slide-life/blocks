@@ -1,5 +1,7 @@
 {
   "university": {
+    "_representation": "${name}",
+
     "name": {
       "_description": "University name",
       "_type": "text"

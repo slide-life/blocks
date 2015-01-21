@@ -14,6 +14,8 @@
 
     "id-card": {
       "_components": ["base.start-date", "base.expiry-date"],
+      "_representation": "${number}",
+
       "number": {
         "_description": "ID card number",
         "_type": "number"

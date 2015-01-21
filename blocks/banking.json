@@ -11,6 +11,8 @@
     },
 
     "account": {
+      "_representation": "${number}",
+
       "number": {
         "_description": "Account number",
         "_type": "number"
