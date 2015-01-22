@@ -3,6 +3,11 @@
     "_description": "Name",
     "_representation": "${first} ${last}",
 
+    "title": {
+      "_description": "Title",
+      "_type": "text"
+    },
+
     "first": {
       "_description": "First name",
       "_type": "text"
