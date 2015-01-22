@@ -43,15 +43,15 @@
 
   "address": {
     "_description": "Address",
-    "_representation": "${residence} ${street}, ${city}, ${state} ${zip-code}, ${country}",
+    "_representation": "${first-line}, ${second-line}, ${city}, ${state} ${zip-code}, ${country}",
 
-    "residence": {
-      "_description": "Residence name/number",
+    "first-line": {
+      "_description": "First line",
       "_type": "text"
     },
 
-    "street": {
-      "_description": "Street",
+    "second-line": {
+      "_description": "Second line",
       "_type": "text"
     },
 

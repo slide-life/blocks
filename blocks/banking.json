@@ -1,18 +1,18 @@
 {
   "bank": {
-    "name": {
-      "_description": "Bank name",
-      "_type": "text"
-    },
-
-    "branch": {
-      "_description": "Bank branch",
-      "_type": "text"
-    },
-
     "account": {
       "_description": "Bank account",
-      "_representation": "${number}",
+      "_representation": "${name} ${number}",
+
+      "name": {
+        "_description": "Bank name",
+        "_type": "text"
+      },
+
+      "branch": {
+        "_description": "Bank branch",
+        "_type": "text"
+      },
 
       "number": {
         "_description": "Account number",
@@ -30,14 +30,14 @@
       },
 
       "swift-code": {
-        "_description": "Swift code",
+        "_description": "SWIFT code",
         "_type": "text"
       }
     },
 
     "card": {
-      "_description": "Bank card",
-      "_components": ["base.start-date", "base.expiry-date"],
+      "_description": "Payment card",
+      "_components": ["base.issue-date", "base.expiry-date"],
       "_representation": "${number}",
 
       "number": {
