@@ -22,11 +22,14 @@
 
   "id-card": {
     "_description": "ID card",
+    "_representation": "${country}",
+    "_components": ["base.country"],
     "_inherits": "base.id-card"
   },
 
   "drivers-license": {
     "_description": "Drivers license",
+    "_representation": "${state}",
     "_components": ["base.country", "base.state"],
     "_inherits": "base.id-card"
   }

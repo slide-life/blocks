@@ -21,6 +21,11 @@
     "last": {
       "_description": "Last name",
       "_type": "text"
+    },
+
+    "preferred": {
+      "_description": "Preferred name",
+      "_type": "text"
     }
   },
 
@@ -40,15 +45,46 @@
     "_inherits": "base.country"
   },
 
+  "gender": {
+    "_description": "Gender",
+    "_type": "select",
+    "_options": ["Male", "Female", "Other"]
+  },
+
   "sex": {
     "_description": "Sex",
     "_type": "select",
     "_options": ["Male", "Female", "Other"]
   },
 
+  "occupation": {
+    "_description": "Occupation",
+    "_type": "text"
+  },
+
+  "place-of-birth": {
+    "_description": "Place of birth",
+    "_type": "text"
+  },
+
+  "religion": {
+    "_description": "Religion",
+    "_type": "text"
+  },
+
+  "ethnicity": {
+    "_description": "ethnicity",
+    "_type": "text"
+  },
+
+  "spoken-languages": {
+    "_description": "Spoken languages",
+    "_type": "text"
+  },
+
   "address": {
     "_description": "Address",
-    "_representation": "${first-line}, ${second-line}, ${city}, ${state} ${zip-code}, ${country}",
+    "_representation": "${first-line}",
 
     "first-line": {
       "_description": "First line",

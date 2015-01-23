@@ -9,6 +9,11 @@
     "_inherits": "base.phone"
   },
 
+  "work-phone": {
+    "_description": "Work phone",
+    "_inherits": "base.phone"
+  },
+
   "home-phone": {
     "_description": "Home phone",
     "_inherits": "base.phone"

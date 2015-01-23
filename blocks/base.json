@@ -69,15 +69,15 @@
     },
 
     "phone": {
-      "_representation": "${extension}${number}",
+      "_representation": "${country-code}${number}",
 
       "number": {
         "_description": "Phone number",
         "_type": "number"
       },
 
-      "extension": {
-        "_description": "Phone extension",
+      "country-code": {
+        "_description": "Phone country code",
         "_type": "number"
       }
     }
