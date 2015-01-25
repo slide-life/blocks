@@ -22,7 +22,7 @@
     "graduation-year": {
       "_description": "Graduation year",
       "_type": "date",
-      "_format": "yy"
+      "_format": "y"
     },
 
     "major": {

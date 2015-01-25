@@ -37,7 +37,7 @@
   "date-of-birth": {
     "_description": "Date of birth",
     "_type": "date",
-    "_format": "dd-mm-yy"
+    "_format": "d-m-y"
   },
 
   "country-of-citizenship": {
@@ -73,7 +73,7 @@
   },
 
   "ethnicity": {
-    "_description": "ethnicity",
+    "_description": "Ethnicity",
     "_type": "text"
   },
 

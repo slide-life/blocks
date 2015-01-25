@@ -3,13 +3,13 @@
     "issue-date": {
       "_description": "Issue date",
       "_type": "date",
-      "_format": "mm-yy"
+      "_format": "m-y"
     },
 
     "expiry-date": {
       "_description": "Expiry date",
       "_type": "date",
-      "_format": "mm-yy"
+      "_format": "m-y"
     },
 
     "id-card": {
