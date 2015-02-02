@@ -1,0 +1,20 @@
+{
+  "api": {
+    "keys": {
+      "symmetric": {
+        "_description": "Symmetric key",
+        "_type": "text"
+      },
+
+      "private": {
+        "_description": "Private key",
+        "_type": "text"
+      },
+
+      "public": {
+        "_description": "Public key",
+        "_type": "text"
+      }
+    }
+  }
+}
